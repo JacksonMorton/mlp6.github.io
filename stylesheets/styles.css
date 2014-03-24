@@ -147,7 +147,8 @@ textarea {
 /*
  * Addresses margins handled incorrectly in IE6/7
  */
-body {
+
+ {
   margin: 0;
 }
 
@@ -532,7 +533,7 @@ body {
   padding: 0px 0 20px 0px;
   margin: 0px;
   font: 14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #f0e7d5;
+  color: #ffffff;
   font-weight: normal;
   background: #000066;
   background-attachment: fixed !important;
@@ -545,7 +546,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #e8e8e8;
+  color: #ffffff;
   margin: 0 0 10px;
   font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
@@ -557,6 +558,7 @@ p, ul, ol, table, pre, dl {
 
 h1, h2, h3 {
   line-height: 1.1;
+  font-variant: small-caps;
 }
 
 h1 {
@@ -575,17 +577,20 @@ h3 {
   font-size: 18px;
   line-height: 24px;
   font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-  font-weight: normal;
-  color: #b6b6b6;
+  font-weight: heavy;
+  font-variant: small-caps;
+  text-decoration: underline;
+  color: #ffffff;
 }
 
 a {
-  color: #ffcc00;
+  color: #ffffff;
   font-weight: 400;
+  font-style: italic
   text-decoration: none;
 }
 a:hover {
-  color: #ffeb9b;
+  color: #707070;
 }
 
 a small {
